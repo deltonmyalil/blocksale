@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b0f2743-fac6-47e2-a432-6894f0c34767" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/migrations/2_deploy_contracts.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/contracts/BlockSale.sol" afterPath="$PROJECT_DIR$/contracts/BlockSale.sol" />
+      <change beforePath="$PROJECT_DIR$/test/BlockSaleHappyPath.js" afterPath="$PROJECT_DIR$/test/BlockSaleHappyPath.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,26 +37,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1_initial_migration.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/migrations/1_initial_migration.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="truffle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/truffle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,11 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockSale.sol" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BlockSale.sol" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contracts/BlockSale.sol">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
               <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockSaleHappyPath.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/BlockSaleHappyPath.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -112,6 +100,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/contracts/BlockSale.sol" />
         <option value="$PROJECT_DIR$/migrations/2_deploy_contracts.js" />
+        <option value="$PROJECT_DIR$/test/BlockSaleHappyPath.js" />
       </list>
     </option>
   </component>
@@ -154,6 +143,11 @@
               <item name="blocksale" type="b2602c69:ProjectViewProjectNode" />
               <item name="blocksale" type="462c0819:PsiDirectoryNode" />
               <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blocksale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blocksale" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,7 +300,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526397934469</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sellArticle() functionality added. One at a time.">
+      <created>1526484108343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526484108343</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Empty test defined in test">
+      <created>1526485305480</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1526485305480</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -352,7 +360,9 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Initial Github test." />
     <MESSAGE value="All tests done. Starting dev on Atom. idea for git." />
-    <option name="LAST_COMMIT_MESSAGE" value="All tests done. Starting dev on Atom. idea for git." />
+    <MESSAGE value="sellArticle() functionality added. One at a time." />
+    <MESSAGE value="Empty test defined in test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Empty test defined in test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -675,6 +685,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/BlockSaleHappyPath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
         </state>
       </provider>
